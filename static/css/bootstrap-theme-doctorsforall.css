@@ -1,0 +1,116 @@
+/* navbar overrides */
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar .container {
+    min-height: 6em;
+    padding-top: 1em;
+}
+.navbar .navbar-brand {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+/* navbar */
+.navbar-dfa {
+    background-color: #36b4a4;
+    border-color: #36b4a4;
+}
+/* title */
+.navbar-dfa .navbar-brand {
+    color: #000000;
+}
+.navbar-dfa .navbar-brand:hover,
+.navbar-dfa .navbar-brand:focus {
+    color: #000000;
+}
+.navbar-brand-logo {
+    height: 100%;
+}
+/* link */
+.navbar-dfa .navbar-nav > li > a {
+    color: #000000;
+}
+.navbar-dfa .navbar-nav > li > a:hover,
+.navbar-dfa .navbar-nav > li > a:focus {
+    color: #000000;
+}
+.navbar-dfa .navbar-nav > .active > a, 
+.navbar-dfa .navbar-nav > .active > a:hover, 
+.navbar-dfa .navbar-nav > .active > a:focus {
+    background-color: #ffcd00;
+    color: #000000;
+}
+.navbar-dfa .navbar-nav > .open > a, 
+.navbar-dfa .navbar-nav > .open > a:hover, 
+.navbar-dfa .navbar-nav > .open > a:focus {
+    background-color: #D5D5D5;
+    color: #555;
+}
+/* caret */
+.navbar-dfa .navbar-nav > .dropdown > a .caret {
+    border-bottom-color: #777;
+    border-top-color: #777;
+}
+.navbar-dfa .navbar-nav > .dropdown > a:hover .caret,
+.navbar-dfa .navbar-nav > .dropdown > a:focus .caret {
+    border-bottom-color: #333;
+    border-top-color: #333;
+}
+.navbar-dfa .navbar-nav > .open > a .caret, 
+.navbar-dfa .navbar-nav > .open > a:hover .caret, 
+.navbar-dfa .navbar-nav > .open > a:focus .caret {
+    border-bottom-color: #555;
+    border-top-color: #555;
+}
+/* mobile version */
+.navbar-dfa .navbar-toggle {
+    border-color: #000000;
+}
+.navbar-dfa .navbar-toggle:hover,
+.navbar-dfa .navbar-toggle:focus {
+    background-color: #ffcd00;
+}
+.navbar-dfa .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+@media (max-width: 767px) {
+    .navbar-dfa .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-dfa .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-dfa .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+/* typography */
+.section-title {
+    padding-bottom: 20px;
+}
+.text-black {
+    color: #000000;
+}
+.text-teal {
+    color: #36b4a4;
+}
+.text-yellow {
+    color: #ffcd00;
+}
+.text-white {
+    color: #ffffff;
+}
+/* backgrounds */
+.background-teal {
+    background-color: #36b4a4;
+}
+.background-yellow {
+    background-color: #ffcd00;
+}
+.background-white {
+    background-color: #ffffff;
+}
+/* layout */
+.content-section {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
