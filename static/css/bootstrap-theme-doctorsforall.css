@@ -1,3 +1,15 @@
+/* bootstrap overrides*/
+.vertical-align {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* navbar overrides */
 .navbar {
     margin-bottom: 0px;
@@ -33,16 +45,25 @@
 }
 .navbar-dfa .navbar-nav > li > a:hover,
 .navbar-dfa .navbar-nav > li > a:focus {
+    background: none;
+    background-image: url(../image/splat-wide-yellow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     color: #000000;
 }
-.navbar-dfa .navbar-nav > .active > a, 
-.navbar-dfa .navbar-nav > .active > a:hover, 
+.navbar-dfa .navbar-nav > .active > a,
+.navbar-dfa .navbar-nav > .active > a:hover,
 .navbar-dfa .navbar-nav > .active > a:focus {
-    background-color: #ffcd00;
+    background-image: url(../image/splat-wide-yellow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     color: #000000;
 }
-.navbar-dfa .navbar-nav > .open > a, 
-.navbar-dfa .navbar-nav > .open > a:hover, 
+
+.navbar-dfa .navbar-nav > .open > a,
+.navbar-dfa .navbar-nav > .open > a:hover,
 .navbar-dfa .navbar-nav > .open > a:focus {
     background-color: #D5D5D5;
     color: #555;
@@ -57,8 +78,8 @@
     border-bottom-color: #333;
     border-top-color: #333;
 }
-.navbar-dfa .navbar-nav > .open > a .caret, 
-.navbar-dfa .navbar-nav > .open > a:hover .caret, 
+.navbar-dfa .navbar-nav > .open > a .caret,
+.navbar-dfa .navbar-nav > .open > a:hover .caret,
 .navbar-dfa .navbar-nav > .open > a:focus .caret {
     border-bottom-color: #555;
     border-top-color: #555;
