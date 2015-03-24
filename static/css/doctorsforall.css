@@ -1,9 +1,49 @@
+/* fonts */
+@font-face {
+    font-family: museo;
+    src: url(../resources/Museo_Slab_1000.otf);
+}
+@font-face {
+    font-family: oilhand;
+    src: url(../resources/oilhand.ttf);
+}
+@font-face {
+    font-family: pt-sans-caption;
+    src: url(../resources/PTC55F.ttf);
+}
+@font-face {
+    font-family: pt-sans-caption-bold;
+    src: url(../resources/PTC75F.ttf);
+}
+@font-face {
+    font-family: pt-sans-narrow;
+    src: url(../resources/PTN57F.ttf);
+}
+@font-face {
+    font-family: pt-sans-narrow-bold;
+    src: url(../resources/PTN77F.ttf);
+}
+@font-face {
+    font-family: pt-sans;
+    src: url(../resources/PTS55F.ttf);
+}
+@font-face {
+    font-family: pt-sans-italic;
+    src: url(../resources/PTS56F.ttf);
+}
+@font-face {
+    font-family: pt-sans-bold;
+    src: url(../resources/PTS75F.ttf);
+}
+@font-face {
+    font-family: pt-sans-bold-italic;
+    src: url(../resources/PTS76F.ttf);
+}
 /* bootstrap overrides*/
 .vertical-align {
     display: flex;
     flex-direction: row;
 }
-
 .vertical-align > [class^="col-"],
 .vertical-align > [class*=" col-"] {
     display: flex;
@@ -15,12 +55,12 @@
     margin-bottom: 0px;
 }
 .navbar .container {
-    min-height: 6em;
-    padding-top: 1em;
+    min-height: 8em;
+    padding-top: 2em;
 }
 .navbar .navbar-brand {
-    padding-bottom: 0;
-    padding-top: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 /* navbar */
@@ -37,7 +77,9 @@
     color: #000000;
 }
 .navbar-brand-logo {
-    height: 100%;
+    height: 175%;
+    position: relative;
+    top: -37%;
 }
 /* link */
 .navbar-dfa .navbar-nav > li > a {
@@ -106,7 +148,15 @@
 }
 /* typography */
 .section-title {
-    padding-bottom: 20px;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+.subsection-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.nav-title {
+    font-size: 18px;
 }
 .text-black {
     color: #000000;
@@ -120,6 +170,21 @@
 .text-white {
     color: #ffffff;
 }
+p {
+    font-family: pt-sans;
+    font-size: 22px;
+}
+.p-small {
+    font-size: 20px;
+    padding: 8px;
+}
+strong {
+    font-family: pt-sans-bold;
+    font-size: 22px;
+}
+.text-title {
+    font-family: museo;
+}
 /* backgrounds */
 .background-teal {
     background-color: #36b4a4;
@@ -132,6 +197,20 @@
 }
 /* layout */
 .content-section {
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+.portfolio-splat {
+    background-image: url(../image/splat-yellow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    height: 160px;
+}
+.donate-splat {
+    background-image: url(../image/splat-wide-teal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    height: 120px;
 }
