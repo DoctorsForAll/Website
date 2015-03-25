@@ -39,18 +39,6 @@
     font-family: pt-sans-bold-italic;
     src: url(../resources/PTS76F.ttf);
 }
-/* bootstrap overrides*/
-.vertical-align {
-    display: flex;
-    flex-direction: row;
-}
-
-.vertical-align > [class^="col-"],
-.vertical-align > [class*=" col-"] {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 /* navbar overrides */
 .navbar {
     margin-bottom: 0px;
@@ -191,6 +179,7 @@ strong {
     font-family: oilhand;
     font-size: 6vw;
     line-height: 1em;
+    padding: 15%;
 }
 /* backgrounds */
 .background-teal {
@@ -225,8 +214,8 @@ strong {
     background-image: url(../image/splat-wide-teal.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 90% 100%;
-    height: 120px;
+    background-size: 100% 100%;
+    padding: 10px 30px 20px 10px;
 }
 /* layout */
 .content-section {
