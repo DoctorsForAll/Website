@@ -222,3 +222,7 @@ strong {
     padding-bottom: 60px;
     padding-top: 40px;
 }
+.donate-button {
+    width:100%;
+    max-width: 250px;
+}
