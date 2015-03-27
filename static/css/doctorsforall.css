@@ -41,15 +41,15 @@
 }
 /* navbar overrides */
 .navbar {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .navbar .container {
     min-height: 8em;
     padding-top: 2em;
 }
 .navbar .navbar-brand {
-    padding-bottom: 0px;
-    padding-top: 0px;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 /* navbar */
@@ -161,7 +161,8 @@
 }
 p {
     font-family: pt-sans;
-    font-size: 22px;
+    font-size: 22.5px;
+    line-height: 1.5em;
 }
 .p-small {
     font-size: 20px;
@@ -169,7 +170,7 @@ p {
 }
 strong {
     font-family: pt-sans-bold;
-    font-size: 22px;
+    font-size: 22.5px;
 }
 .text-title {
     font-family: museo;
@@ -181,7 +182,20 @@ strong {
     line-height: 1em;
     padding: 15%;
 }
+.small-print {
+    font-size: 16px;
+}
+.small-print span {
+    font-weight: 600;
+}
+.paragraph-link {
+    color: inherit !important;
+    cursor: pointer;
+}
 /* backgrounds */
+.background-black {
+    background-color: #000000;
+}
 .background-teal {
     background-color: #36b4a4;
 }
@@ -193,8 +207,8 @@ strong {
 }
 .background-banner {
     background-image: url(../image/banner-bg.png);
-    background-repeat: no-repeat;
     background-position: center; 
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .banner {
@@ -223,6 +237,20 @@ strong {
     padding-top: 40px;
 }
 .donate-button {
-    width:100%;
     max-width: 250px;
+    width:100%;
+}
+.line-break {
+    height: 4px;
+    margin-bottom: 10px;
+}
+.line-break-footer {
+    height: 2px;
+    margin-bottom: 10px;
+}
+.legal-footer {
+    margin-top: 50px;
+}
+.profile-picture {
+    width: 100%;
 }
