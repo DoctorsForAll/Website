@@ -41,15 +41,15 @@
 }
 /* navbar overrides */
 .navbar {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .navbar .container {
     min-height: 8em;
     padding-top: 2em;
 }
 .navbar .navbar-brand {
-    padding-bottom: 0px;
-    padding-top: 0px;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 /* navbar */
@@ -207,8 +207,8 @@ strong {
 }
 .background-banner {
     background-image: url(../image/banner-bg.png);
-    background-repeat: no-repeat;
     background-position: center; 
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .banner {
@@ -237,8 +237,8 @@ strong {
     padding-top: 40px;
 }
 .donate-button {
-    width:100%;
     max-width: 250px;
+    width:100%;
 }
 .line-break {
     height: 4px;
@@ -250,4 +250,7 @@ strong {
 }
 .legal-footer {
     margin-top: 50px;
+}
+.profile-picture {
+    width: 100%;
 }
