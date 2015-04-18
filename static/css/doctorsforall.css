@@ -144,6 +144,10 @@
     font-size: 22px;
     margin-bottom: 15px;
 }
+.subsection-name {
+    font-size: 22px;
+    margin-bottom: 0;
+}
 .nav-title {
     font-size: 18px;
 }
