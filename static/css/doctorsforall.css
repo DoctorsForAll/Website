@@ -66,9 +66,9 @@
     color: #000000;
 }
 .navbar-brand-logo {
-    height:175%;
+    height:150%;
     position:relative;
-    top:-37%;
+    top:-25%;
 }
 /* link */
 .navbar-dfa .navbar-nav > li > a {
@@ -206,10 +206,11 @@ strong {
     background-color: #ffffff;
 }
 .background-banner {
-    background-image: url(../image/banner-bg.png);
-    background-position: center; 
+    background-image: url(../image/sustainablehealthcareforall.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 30vw;
 }
 .banner {
     padding-bottom: 15%;
