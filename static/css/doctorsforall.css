@@ -216,6 +216,13 @@ strong {
     background-size: cover;
     min-height: 30vw;
 }
+.donate-banner {
+    background-image: url(../image/donatebanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vw;
+}
 .banner {
     padding-bottom: 15%;
     padding-top: 15%;
