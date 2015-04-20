@@ -163,6 +163,13 @@
 .text-white {
     color: #ffffff;
 }
+a.inheritedcolor,
+a.inheritedcolor:hover,
+a.inheritedcolor:visited,
+a.inheritedcolor:active {
+    color:inherit;
+    text-decoration: none;
+}
 p {
     font-family: pt-sans;
     font-size: 22.5px;
@@ -195,6 +202,14 @@ strong {
 .paragraph-link {
     color: inherit !important;
     cursor: pointer;
+}
+h1.personal-blog {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+}
+p.personal-blog {
+    font-size: 18px;
 }
 /* backgrounds */
 .background-black {
