@@ -66,9 +66,9 @@
     color: #000000;
 }
 .navbar-brand-logo {
-    height:175%;
+    height:150%;
     position:relative;
-    top:-37%;
+    top:-25%;
 }
 /* link */
 .navbar-dfa .navbar-nav > li > a {
@@ -144,6 +144,10 @@
     font-size: 22px;
     margin-bottom: 15px;
 }
+.subsection-name {
+    font-size: 20px;
+    margin-bottom: 0;
+}
 .nav-title {
     font-size: 18px;
 }
@@ -158,6 +162,13 @@
 }
 .text-white {
     color: #ffffff;
+}
+a.inheritedcolor,
+a.inheritedcolor:hover,
+a.inheritedcolor:visited,
+a.inheritedcolor:active {
+    color:inherit;
+    text-decoration: none;
 }
 p {
     font-family: pt-sans;
@@ -192,6 +203,14 @@ strong {
     color: inherit !important;
     cursor: pointer;
 }
+h1.personal-blog {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+}
+p.personal-blog {
+    font-size: 18px;
+}
 /* backgrounds */
 .background-black {
     background-color: #000000;
@@ -206,8 +225,22 @@ strong {
     background-color: #ffffff;
 }
 .background-banner {
-    background-image: url(../image/banner-bg.png);
-    background-position: center; 
+    background-image: url(../image/sustainablehealthcareforall.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 45vw;
+}
+.donate-banner {
+    background-image: url(../image/donatebanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vw;
+}
+.background-map {
+    background-image: url(../image/backgroundmap.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
